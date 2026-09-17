@@ -28,7 +28,7 @@ DEBUG = False
 ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost",
-    "prediccionvivienda-a.up.railway.app",
+    "precious-peace-a.up.railway.app",
 ]
 
 
