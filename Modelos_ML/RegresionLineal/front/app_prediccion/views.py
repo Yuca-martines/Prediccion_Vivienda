@@ -12,7 +12,7 @@ def home(request):
         if area_m2:
             try:
                 # Usa la variable de entorno de Railway, o localhost si estás en tu PC
-                api_url = prediccionvivienda-production.up.railway.app
+                api_url = https://prediccionvivienda-a.up.railway.app/
                 payload = {"area_m2": float(area_m2)}
                 
                 response = requests.post(api_url, json=payload)
